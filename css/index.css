@@ -71,6 +71,11 @@ p {
     margin: 0 auto;
 }
 
+.container .header .image {
+    display: flex; 
+    justify-content: space-between;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +117,7 @@ p {
     justify-content: center;
 }
 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +150,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+/* container {
+    display:flex:
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
