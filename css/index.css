@@ -104,13 +104,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.teal {
+    background: teal;
+}
+
+.gold {
+    background: gold;
+}
+
+.cadetblue {
+    background: cadetblue;
+}
+
+.coral {
+    background: coral;
+}
+
+.crimson{
+    background: crimson;
+}
+
+.forestgreen{
+    background: forestgreen;
+}
+
+.darkorchid{
+    background: darkorchid
+}
+
+.hotpink{
+    background: hotpink;
+}
+
+.indigo{
+    background: indigo;
+}
+
+.dodgerblue{
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +184,31 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.header {
+    border: 2px solid red;
+
+}
+
+.header{
+    display: flex; 
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    width: 55%;
+}
+
+header div {
+    width: 15%;
+}
+
+
+/* container {
+    display:flex:
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
