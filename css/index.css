@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,132 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* Index Page */
+
+.index-header{
+    display:flex;
+    justify-content: center;
+}
+
+.header-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.teal {
+    background: teal;
+}
+
+.gold {
+    background: gold;
+}
+
+.cadetblue {
+    background: cadetblue;
+}
+
+.coral {
+    background: coral;
+}
+
+.crimson{
+    background: crimson;
+}
+
+.forestgreen{
+    background: forestgreen;
+}
+
+.darkorchid{
+    background: darkorchid
+}
+
+.hotpink{
+    background: hotpink;
+}
+
+.indigo{
+    background: indigo;
+}
+
+.dodgerblue{
+    background: dodgerblue;
+}
+
+/* About Page */
+
+header{
+    display:flex;
+    margin-bottom: 30px;
+}
+
+header nav{
+    display:flex;
+    justify-content: space-evenly;
+    width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
+}
+
+  header nav a {
+	margin-left: 65px;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+  }
+
+.about-description h2 {
+    margin-top: 15px;
+}
+
+.about-description p{
+    margin-bottom: 15px;
+}
+
+.about-description {
+    border-bottom: dashed 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.about-main-content div{
+    width: 48%;
+    border-bottom: dotted 2px;
+}
+
+.about-main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-main-content button{
+    background: white;
+	vertical-align: top;
+	margin-top: 12px;
+	padding: 5px 20px;
+	font-size: 10px;
+	border: 2.5px solid black;
+	cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.text-content h3{
+    margin-top: 10px;
+}
+
+.text-content img {
+    margin-top: 20px;
+}
+
+.lets-work{
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left:20px;
+    margin-bottom: 20px;
 }
